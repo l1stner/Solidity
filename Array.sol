@@ -16,7 +16,7 @@ contract Array{
 
     Person[] public listOfPeople; // []
 
-
+    mapping(string => uint256) public nameToFavNum; // default values for all key is ZERO 
 
     // Person public myFriend = Person({favoriteNumber: 1, name: "Tan"});
 
@@ -33,6 +33,7 @@ contract Array{
         // Person memory newPerson = Person(_favoriteNumber, _name);
         // //listOfPeople.push(nwePerson);
         listOfPeople.push(Person(_favoriteNumber, _name));
+        nameToFavNum[_name] = _favoriteNumber; 
     }
     
 }

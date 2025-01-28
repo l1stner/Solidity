@@ -37,6 +37,4 @@ contract ErrorsAndWarnings {
         // //listOfPeople.push(nwePerson);
         listOfPeople.push(Person(_favoriteNumber, _name));
     }
-    
-
 }
