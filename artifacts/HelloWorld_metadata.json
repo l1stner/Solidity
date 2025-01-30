@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myVal",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleStorage.sol": "HelloWorld"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleStorage.sol": {
+			"keccak256": "0xbf27775a1181ab3dfd4bbc0dc198d9476d2160e7a48334ab076372ec5e5a3424",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b346e048bac28571566116a56545021fd36603a55631a38a7c2c3a10d2669cf9",
+				"dweb:/ipfs/QmYA9uPMnjDsdTAXvfNLwaT1jFDzkcj9vBbC8AKJf2XUsU"
+			]
+		}
+	},
+	"version": 1
+}
