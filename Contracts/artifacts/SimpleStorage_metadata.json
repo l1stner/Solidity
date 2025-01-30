@@ -48,19 +48,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myFavoriteNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -68,7 +55,7 @@
 						"type": "string"
 					}
 				],
-				"name": "nameToFavNum",
+				"name": "nameToFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -119,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Array.sol": "Array"
+			"Contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -133,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Array.sol": {
-			"keccak256": "0xdf08d2561472691ff030043efe23f32023edbc1acb8dde6339d0fc5a545579cf",
+		"Contracts/SimpleStorage.sol": {
+			"keccak256": "0x19cf4dde61b0dec98b5578a91c9baaf0bf8fae6bb8fa4dad6ac43c7cd1dcdb87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://258a5a37fc4673a1732f9b170691e793a22448d2058006baff6cb212cdca206a",
-				"dweb:/ipfs/QmfWtpG5A67gRj7tk4kVfom5A1aYPPgRSjiPfEstmfkagY"
+				"bzz-raw://3c75ac3d53672cd1f62c381b5ff6ae17f26e50a0773acb7bd7a1cc232267154e",
+				"dweb:/ipfs/QmVrmeJ73sGiUm6kBBVerBSYeNmxNziJJtAc4ioGoRr34U"
 			]
 		}
 	},
